@@ -2,7 +2,7 @@
 
 Ce projet a été réalisé dans le cadre du Master 2 Management, Data & IA. Il vise à concevoir un système de gestion intelligent pour un aéroport (Charles de Gaulle) en utilisant MongoDB et Python via Jupyter Notebook.
 
-## 👥 Membres du groupe
+## Membres du groupe
 
 - CASTELLI Ornella
 - KHALLOULI Nadia
@@ -10,21 +10,21 @@ Ce projet a été réalisé dans le cadre du Master 2 Management, Data & IA. Il 
 - MOUNGAD Massilia
 - GUEYE Samira Bourgi
 
-## 🎯 Objectif
+## Objectif
 
 - Gérer les vols, passagers, services, bagages et réservations dans une base MongoDB
 - Implémenter un algorithme de recommandation de destinations basé sur le profil des passagers
 - Effectuer toutes les opérations CRUD à travers des fonctions Python
 - Structurer un code facilement migrable vers une API ou microservice
 
-## 🧰 Technologies utilisées
+## Technologies utilisées
 
 - Python 3
 - MongoDB Atlas
 - pymongo
 - Jupyter Notebook
 
-## 🗃️ Collections MongoDB
+## Collections MongoDB
 
 - `flights` : infos vols (id, horaires, statut...)
 - `passengers` : données passagers + profil
@@ -32,13 +32,13 @@ Ce projet a été réalisé dans le cadre du Master 2 Management, Data & IA. Il 
 - `baggage` : suivi des bagages (poids, position)
 - `services` : services liés au vol (embarquement, contrôle)
 
-## 🔄 Fonctionnalités principales
+## Fonctionnalités principales
 
 - Ajout / lecture / modification / suppression dans chaque collection
 - Recommandation de destinations personnalisées
 - Préparation de message d’email personnalisé
 
-## 🚀 Lancer le projet
+## Lancer le projet
 
 1. Cloner le dépôt
 2. Installer les dépendances :
@@ -48,7 +48,7 @@ Ce projet a été réalisé dans le cadre du Master 2 Management, Data & IA. Il 
 3. Lancer le notebook `projet_applicatif_M2_algorithme.ipynb`
 4. Modifier l’URI MongoDB si besoin
 
-## 🔮 Exemple de recommandation
+## Exemple de recommandation
 
 ```json
 {
@@ -58,7 +58,7 @@ Ce projet a été réalisé dans le cadre du Master 2 Management, Data & IA. Il 
 }
 ```
 
-## 📁 Arborescence suggérée
+## Arborescence suggérée
 
 ```
 📁 projet-applicatif/
@@ -72,12 +72,12 @@ Ce projet a été réalisé dans le cadre du Master 2 Management, Data & IA. Il 
     └── captures MongoDB Compass
 ```
 
-## 📌 Remarque
+## Remarque
 
 Ce projet est un prototype académique. Il peut être facilement intégré à une API Flask ou FastAPI pour évoluer vers une application déployable.
 
 
-## 🌐 Tester l'algorithme via une API (FastAPI)
+## Tester l'algorithme via une API (FastAPI)
 
 Après avoir lancé l'API FastAPI (si vous avez migré le notebook en microservice), vous pouvez tester la recommandation directement depuis l'interface interactive Swagger :
 
@@ -87,7 +87,7 @@ Après avoir lancé l'API FastAPI (si vous avez migré le notebook en microservi
    ```
 
 2. Aller dans votre navigateur à :
-   👉 http://127.0.0.1:8000/docs#/default/get_personalized_recommendation_recommendation__passenger_id__get
+   http://127.0.0.1:8000/docs#/default/get_personalized_recommendation_recommendation__passenger_id__get
 
 3. Cliquer sur **Try it out**
 
